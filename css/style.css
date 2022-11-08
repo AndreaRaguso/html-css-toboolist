@@ -16,8 +16,52 @@
 
 header{
     background-color: #ffffff;
+    height: 60px;
 }
 
 body{
     background-color: #f6f8f9;
+}
+
+.square1{
+    background-color: #ffffff;
+    height: 50px;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.buttons{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 80px;
+}
+
+.button{
+    border-radius: 5px;
+    padding: 8px;
+    border: 0;
+}
+
+#blue-button{
+    background-color: #47adf1;
+    color: white;
+    font-size: 15px;
+}
+
+#gray-button{
+    background-color: #ffffff;
+    color: lightgray;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+
+.square2{
+    background-color: #ffffff;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
 }

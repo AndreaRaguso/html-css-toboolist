@@ -62,10 +62,12 @@ body{
 
 .square2{
     background-color: #ffffff;
-    height: 400px;
+    height: 100%;
     margin-top: 10px;
     position: relative;
     width: 100%;
+    padding: 50px;
+    line-height: 40px;
 }
 
 .container{
@@ -75,10 +77,13 @@ body{
 
 .task-title::before{
     content: "\25BC";
+    margin-right: 2px;
+    
 }
 
 .task-title{
     font-weight: bold;
+    margin-top: 40px;
 }
 
 .task-check::before{
@@ -89,8 +94,75 @@ body{
      height: 10px;
      width: 10px;
      padding: 2px;
+     margin-right: 10px;
+}
+
+.task-check::after{
+    padding: 3px 8px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.task-check2::after{
+    padding: 3px 8px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.editoria::after {
+    background-color: #45abe9;
+    content: "Editorial";
+    color: white;
+}
+
+.goals::after {
+    background-color: #9c72e4;
+    content: "Q1 Goals";
+    color: white;
+}
+
+
+.recruiting::after {
+    background-color: #64c0a8;
+    content: "Recruiting";
+    color: white;
+}
+
+
+.mobile::after {
+    background-color: #f29e33;
+    content: "Mobile";
+    color: white;
+}
+
+.website::after {
+    background-color: #d863a0;
+    content: "Website";
+    color: white;
+}
+
+.sales::after {
+    background-color: #b0c926;
+    content: "Sales";
+    color: white;
 }
 
 ol{
     list-style-type: none;
+    font-weight: bold;
+    color: rgb(61, 60, 60);
 }
+
+.task-check2::before{
+    content: "\2A2F";
+    color: #ea5952;
+    border-radius: 50%;
+    border: 1px solid #ea5952;
+    height: 10px;
+    width: 10px;
+    padding: 0 2px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+	

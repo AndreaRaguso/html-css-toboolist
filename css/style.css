@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#title{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+header{
+    background-color: #ffffff;
+}
+
+body{
+    background-color: #f6f8f9;
+}

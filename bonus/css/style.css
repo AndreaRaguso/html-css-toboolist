@@ -77,15 +77,33 @@ body{
     margin: 0 auto;
 }
 
-.task-title::before{
+/* .task-title::before{
     content: "\25BC";
     margin-right: 2px;
     
-}
+} */
 
 .task-title{
     font-weight: bold;
     margin-top: 40px;
+}
+
+.task-title a{
+    text-decoration: none;
+    color: black;  
+}
+
+:target ol{
+    display: block;
+}
+
+a::before{
+    content: "\25BC";
+    margin-right: 2px;
+}
+
+ol{
+    display: none;
 }
 
 .task-check::before{
